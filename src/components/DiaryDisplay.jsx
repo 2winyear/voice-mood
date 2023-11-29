@@ -95,6 +95,9 @@ const DiaryDisplay = ({ data, isLoading }) => {
           <ActionListItem>{data.action_list[2]}</ActionListItem> */}
         </CardContent>
       </CardContainer>
+      <div className="warning">
+        * 해당 결과물은 절대적인 값이 아니니 참고만 하시기 바랍니다.
+      </div>
     </DiaryContainer>
   );
 };
