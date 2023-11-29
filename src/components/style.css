@@ -10,8 +10,33 @@
     width: 300px;
 }
 
-.sampleExample {
+.sampleExampleBtn {
     width: 100%;
+    background-color: #75FB9D;
+    border:none;
+    padding: 3px;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 7px;
+    padding: 6px;
+    margin-bottom: 10px;
+    height: 38px;
+    border-radius: 8px;
 }
 
+.sampleCard {
+    background-color: #EBFAF0;
+    border: 1px solid black
+}
 
+.gptButton {
+    width: 100%;
+    background-color: #09DE8D;
+    border: none;
+    color: white;
+    height: 38px;
+}
+
+.saveBtn{
+    height: 38px;
+}

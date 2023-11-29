@@ -97,10 +97,11 @@ const DiaryInput = ({ isLoading, onSubmit, messageApi }) => {
         style={{ height: "200px" }}
       />
       <ButtonContainer>
-        <Button loading={isLoading} onClick={handleClick}>
-          GPT 회고록을 작성해줘!
+        <Button className="gptButton" loading={isLoading} onClick={handleClick}>
+          분석하기
         </Button>
         <Button
+          className="saveBtn"
           icon={<FileImageOutlined />}
           loading={isLoading}
           onClick={captureAndDownload}
@@ -116,7 +117,7 @@ const DiaryInput = ({ isLoading, onSubmit, messageApi }) => {
 export default DiaryInput;
 
 const ButtonContainer = styled.div`
-  margin: 20px;
+  margin-top: 20px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;

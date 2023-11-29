@@ -16,7 +16,7 @@ const DiaryPersonal = () => {
         <Form>
             <Form.Item label="성별" className="sex" >
                 <Radio.Group>
-                    <Radio className="M" value="male" style={{}}> 남 </Radio>
+                    <Radio className="M" value="male"> 남 </Radio>
                     <Radio className="F" value="female"> 여 </Radio>
                 </Radio.Group>
             </Form.Item>
