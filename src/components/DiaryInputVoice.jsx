@@ -1,4 +1,5 @@
 import { CardContainer } from "./CommonStyles";
+import article from "../assets/article.svg";
 
 
 const DiaryInputVoice = () => {
@@ -28,6 +29,11 @@ const DiaryInputVoice = () => {
         스마트폰의 녹음 버튼을 클릭하고 오늘 하고 싶은 이야기를 30초 내외로 녹음해주세요<br></br>
         (단, 하고싶은 이야기가 없으면 샘플예시를 클릭하세요)
         </CardContainer>
+
+        <button className="sampleExample">
+            <img src={article}></img>
+            샘플 예시 보기
+        </button>
         <button onClick={startRecording}>
             🛑시작
         </button>
