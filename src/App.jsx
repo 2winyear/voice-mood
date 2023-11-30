@@ -52,7 +52,10 @@ function App() {
         마음의 소리에 귀 기울이는 AI 상담사
       </div>
       <DiaryPersonal />
-      <DiaryInputVoice />
+      <DiaryInputVoice 
+        messageApi={messageApi}
+        isLoading={isLoading}
+        onSubmit={handleSubmit}/>
       <DiaryInput
         messageApi={messageApi}
         isLoading={isLoading}

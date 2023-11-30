@@ -94,7 +94,7 @@ const DiaryInput = ({ isLoading, onSubmit, messageApi }) => {
         value={userInput}
         onChange={handleUserInput}
         placeholder="오늘 일어난 일들을 간단히 적어주세요."
-        style={{ height: "200px" }}
+        style={{ height: "30px" }}
       />
       <ButtonContainer>
         <Button className="gptButton" loading={isLoading} onClick={handleClick}>
