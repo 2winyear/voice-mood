@@ -69,7 +69,7 @@ const DiaryInputVoice = ({ isLoading, onSubmit, messageApi }) => {
             <Button onClick={analyzeEmotion}>
                 ⏏️분석
             </Button>
-            <Button className="recording" onClick={startRecording} disabled={recording}>
+            <Button className="recordingBtn" onClick={startRecording} disabled={recording}>
                 <img src={keyboardVoice}/>
             </Button>
             <Button onClick={stopRecording} disabled={!recording}>
