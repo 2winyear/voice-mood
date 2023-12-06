@@ -16,8 +16,13 @@ import {
   MessageTwoTone,
   SoundTwoTone,
 } from "@ant-design/icons";
-import { Image } from "antd";
+import { Card, Image } from "antd";
 import styled from "styled-components";
+import excited from "../assets/sentiment_excited.png"
+import dissatisfied from "../assets/sentiment_extremely_dissatisfied.png"
+import frustrated from "../assets/sentiment_frustrated.png"
+import neutral from "../assets/sentiment_neutral.png"
+import satisfied from "../assets/sentiment_satisfied.png"
 
 const ThumbnailImage = styled(Image)`
   max-width: 100%;
@@ -26,6 +31,8 @@ const ThumbnailImage = styled(Image)`
 `;
 
 const DiaryDisplay = ({ data, isLoading }) => {
+  const getRandom = (min, max) => Math.floor(Math.random() * (max - min) + min);
+
   return (
     <DiaryContainer>
       {isLoading && (
@@ -49,6 +56,32 @@ const DiaryDisplay = ({ data, isLoading }) => {
       </CardContainer>
 
       <ThumbnailImage src={data.thumbnail} alt="Thumbnail" />
+      <Divider />
+      <CardContainer className="scoreCard">
+        <div className="scoreTitle"><img src={satisfied} /> 기쁨 지수</div>
+        <div className="score">현재 {getRandom(3,10)}점 </div>
+        <div className="averScore">평균 8점</div>
+      </CardContainer>
+      <CardContainer className="scoreCard">
+        <div className="scoreTitle"><img src={excited} /> 행복 지수</div>
+        <div className="score">현재 {getRandom(3,10)}점 </div>
+        <div className="averScore">평균 7점</div>
+      </CardContainer>
+      <CardContainer className="scoreCard">
+        <div className="scoreTitle"><img src={neutral} /> 중립 지수</div>
+        <div className="score">현재 {getRandom(1,10)}점 </div>
+        <div className="averScore">평균 6점</div>
+      </CardContainer>
+      <CardContainer className="scoreCard">
+        <div className="scoreTitle"><img src={frustrated} /> 우울 지수</div>
+        <div className="score">현재 {getRandom(2,10)}점 </div>
+        <div className="averScore">평균 7점</div>
+      </CardContainer>
+      <CardContainer className="scoreCard">
+        <div className="scoreTitle"><img src={dissatisfied} /> 화남 지수</div>
+        <div className="score">현재 {getRandom(1,10)}점 </div>
+        <div className="averScore">평균 8점</div>
+      </CardContainer>
 
       <Divider />
       <CardContainer>

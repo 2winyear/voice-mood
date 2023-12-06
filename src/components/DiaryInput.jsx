@@ -4,6 +4,7 @@ import { Title } from "./CommonStyles";
 import styled from "styled-components";
 import { FileImageOutlined } from "@ant-design/icons";
 import html2canvas from "html2canvas";
+import experiment from "../assets/experiment.png"
 
 const { TextArea } = Input;
 
@@ -93,11 +94,12 @@ const DiaryInput = ({ isLoading, onSubmit, messageApi }) => {
       <TextArea
         value={userInput}
         onChange={handleUserInput}
-        placeholder="오늘 일어난 일들을 간단히 적어주세요."
+        placeholder="오늘 일어난 일들을 30자 이상 간단히 적어주세요."
         style={{ height: "30px" }}
       />
       <ButtonContainer>
         <Button className="gptButton" loading={isLoading} onClick={handleClick}>
+        <img src={experiment} />
           분석하기
         </Button>
         <Button
