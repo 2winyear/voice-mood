@@ -2,10 +2,7 @@
 # 심리상담사 GPT, AI 회고록
 
 ![최종결과](http://mate33.dothome.co.kr/)
-![Alt text](<스크린샷 2023-12-06 오후 4.11.52.png>)
-![Alt text](<스크린샷 2023-12-06 오후 4.12.36.png>)
-![Alt text](<스크린샷 2023-12-06 오후 4.12.59.png>)
-Figma: https://www.figma.com/file/lHkUiV3ETbn1bpoX7UK6Td/%EB%B0%94%EA%B5%AC%EB%AF%B8's-team-library?type=design&node-id=0%3A1&mode=design&t=Hiw8I5EH82edgKWw-1
+
 
 React + GPT API로 AI회고록 서비스 개발
 
@@ -76,3 +73,6 @@ Translate into Korean and Use the output in the following JSON format:
 - 02.records : 1개의 스크립트당 3개의 녹음파일 
 - 03.json : 450개 .json
 
+
+# Resource
+- [Figma] (https://www.figma.com/file/lHkUiV3ETbn1bpoX7UK6Td/%EB%B0%94%EA%B5%AC%EB%AF%B8's-team-library?type=design&node-id=0%3A1&mode=design&t=Hiw8I5EH82edgKWw-1)
