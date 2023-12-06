@@ -15,7 +15,10 @@ React + GPT API로 AI회고록 서비스 개발
 ![image](https://github.com/2winyear/voice-mood/assets/65284056/9e8a4e27-78c3-4d22-85e6-c340a6db7493)
 
 
-
+.env 파일
+```
+VITE_GPT_API_KEY=
+```
 
 
 개발과정 :
