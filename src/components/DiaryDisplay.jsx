@@ -58,27 +58,27 @@ const DiaryDisplay = ({ data, isLoading }) => {
       <ThumbnailImage src={data.thumbnail} alt="Thumbnail" />
       <Divider />
       <CardContainer className="scoreCard">
-        <div className="scoreTitle"><img src={satisfied} /> 기쁨 지수</div>
+        <div className="scoreTitle"><img src={satisfied} /> 기쁨지수</div>
         <div className="score">현재 {getRandom(3,10)}점 </div>
         <div className="averScore">평균 8점</div>
       </CardContainer>
       <CardContainer className="scoreCard">
-        <div className="scoreTitle"><img src={excited} /> 행복 지수</div>
+        <div className="scoreTitle"><img src={excited} /> 행복지수</div>
         <div className="score">현재 {getRandom(3,10)}점 </div>
         <div className="averScore">평균 7점</div>
       </CardContainer>
       <CardContainer className="scoreCard">
-        <div className="scoreTitle"><img src={neutral} /> 중립 지수</div>
+        <div className="scoreTitle"><img src={neutral} /> 중립지수</div>
         <div className="score">현재 {getRandom(1,10)}점 </div>
         <div className="averScore">평균 6점</div>
       </CardContainer>
       <CardContainer className="scoreCard">
-        <div className="scoreTitle"><img src={frustrated} /> 우울 지수</div>
+        <div className="scoreTitle"><img src={frustrated} /> 우울지수</div>
         <div className="score">현재 {getRandom(2,10)}점 </div>
         <div className="averScore">평균 7점</div>
       </CardContainer>
       <CardContainer className="scoreCard">
-        <div className="scoreTitle"><img src={dissatisfied} /> 화남 지수</div>
+        <div className="scoreTitle"><img src={dissatisfied} /> 화남지수</div>
         <div className="score">현재 {getRandom(1,10)}점 </div>
         <div className="averScore">평균 8점</div>
       </CardContainer>
