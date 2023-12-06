@@ -1,22 +1,31 @@
 
 # 심리상담사 GPT, AI 회고록
-
-![최종결과](http://mate33.dothome.co.kr/)
-
-
 React + GPT API로 AI회고록 서비스 개발
+- 최종결과: http://mate33.dothome.co.kr/ </br>
 
-문제 : SNS/블로그에 회고록을 쓰고 싶지만, 사람들은 글쓰는 것이 어렵고 회고를 귀찮아 한다. 가설 : GPT의 도움으로 자동으로 글을 써주고, 심리적인 분석과 액션리스트를 제공하면 퀄리티 있는 포스팅과 회고를 통한 성장 가능. 해결 방법 : Web Application을 통해 사용자가 간단한 문구를 입력하면
+![스크린샷 2023-12-06 오후 4 11 52](https://github.com/2winyear/voice-mood/assets/65284056/974239ac-88ab-463b-a818-60aaf52e7ba6) </br>
 
-회고록을 써주는 AI 서비스 개발
+문제 : SNS/블로그에 회고록을 쓰고 싶지만, 사람들은 글쓰는 것이 어렵고 회고를 귀찮아 한다. </br>
+가설 : GPT의 도움으로 자동으로 글을 써주고, 심리적인 분석과 액션리스트를 제공하면 퀄리티 있는 포스팅과 회고를 통한 성장 가능. </br>
+해결 방법 : Web Application을 통해 사용자가 간단한 문구를 입력하면 회고록을 써주는 AI 서비스 개발 </br>
+
+### 분석결과 페이지
+
+![스크린샷 2023-12-06 오후 4 12 36](https://github.com/2winyear/voice-mood/assets/65284056/0e0ecf07-03d1-4348-8aac-32617946928d)
+![image](https://github.com/2winyear/voice-mood/assets/65284056/9e8a4e27-78c3-4d22-85e6-c340a6db7493)
+
+
+
+
+
 개발과정 :
 
-프롬프트를 개발하고 테스트 진행
-Open API Key 발급 후 연동
-프롬프트를 코드로 변환 (시스템(System), 보조자(Assistant), 사용자(User)로 구분)
-시스템(System) 역할 : ChatGPT에게 전제, 배경설명 / eg) 너는 이제부터 심리상담가야
-보조자(Assistant) 역할 : 이전 내용을 바탕으로 프롬프트에 요청 하고자 할 때 사용 / eg) 퓨샷러닝
-사용자(User)의 역할은 chatGPT에 일반적으로 하는 질문 / eg) 주인공의 심리를 파악해봐
+프롬프트를 개발하고 테스트 진행 </br>
+Open API Key 발급 후 연동 </br>
+프롬프트를 코드로 변환 (시스템(System), 보조자(Assistant), 사용자(User)로 구분) </br>
+시스템(System) 역할 : ChatGPT에게 전제, 배경설명 / eg) 너는 이제부터 심리상담가야 </br>
+보조자(Assistant) 역할 : 이전 내용을 바탕으로 프롬프트에 요청 하고자 할 때 사용 / eg) 퓨샷러닝 </br>
+사용자(User)의 역할은 chatGPT에 일반적으로 하는 질문 / eg) 주인공의 심리를 파악해봐 </br>
 
 # Task
 
