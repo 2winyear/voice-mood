@@ -75,4 +75,4 @@ Translate into Korean and Use the output in the following JSON format:
 
 
 # Resource
-- [Figma] (https://www.figma.com/file/lHkUiV3ETbn1bpoX7UK6Td/%EB%B0%94%EA%B5%AC%EB%AF%B8's-team-library?type=design&node-id=0%3A1&mode=design&t=Hiw8I5EH82edgKWw-1)
+- [Figma](https://www.figma.com/file/lHkUiV3ETbn1bpoX7UK6Td/%EB%B0%94%EA%B5%AC%EB%AF%B8's-team-library?type=design&node-id=0%3A1&mode=design&t=Hiw8I5EH82edgKWw-1)
