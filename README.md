@@ -30,6 +30,10 @@ Open API Key 발급 후 연동 </br>
 보조자(Assistant) 역할 : 이전 내용을 바탕으로 프롬프트에 요청 하고자 할 때 사용 / eg) 퓨샷러닝 </br>
 사용자(User)의 역할은 chatGPT에 일반적으로 하는 질문 / eg) 주인공의 심리를 파악해봐 </br>
 
+
+# 소스코드 실행방법
+npm run dev
+
 # Task
 
 - [x] React install
