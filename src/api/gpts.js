@@ -50,12 +50,13 @@ export const CallGPT = async ({ prompt }) => {
       Authorization: `Bearer ${import.meta.env.VITE_GPT_API_KEY}`,
     },
     body: JSON.stringify({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4o-mini",
       messages,
       temperature: 0.7,
       max_tokens: 1_000,
     }),
   });
+
   const responseData = await response.json();
   console.log(">>responseData", responseData);
 
